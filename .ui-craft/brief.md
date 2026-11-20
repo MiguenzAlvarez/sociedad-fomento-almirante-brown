@@ -14,4 +14,5 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - Mostrar el archivo del logo tal como es; no agregarle otro fondo, marco, redondeado, sombra ni padding exterior.
 - El logo debe conservar proporción, tener presencia suficiente y respetar el mismo margen lateral y superior de la grilla general.
 - Talleres y galería deben tener una separación visual inequívoca. Sus grillas tienen que cerrar filas completas sin celdas o espacios blancos residuales.
+- Las fotografías de la galería deben mostrarse completas; no recortarlas para forzar una proporción uniforme.
 - “Nosotros” e “Historia” deben leerse como un solo relato continuo, no como dos bloques visualmente independientes.
