@@ -35,3 +35,8 @@ footer{background:#0b1832;color:white;padding:4.5rem 0 1.5rem}.footer-grid{displ
 /* Render the original logo file without an added frame */
 .brand img{width:auto;height:auto;max-height:92px;object-fit:contain;border:0;border-radius:0;padding:0;background:transparent;box-shadow:none}
 @media (max-width:620px){.brand img{width:auto;height:auto;max-height:72px}}
+
+/* Scale the original mark and align it to the page grid */
+.site-header{height:156px}.nav-shell{align-items:flex-start;padding-top:20px}.brand img{max-height:126px}.site-header nav{margin-top:26px}
+@media (max-width:900px){.site-header{height:142px}.nav-shell{padding-top:16px}.brand img{max-height:110px}.menu-toggle{margin-top:24px}.site-header nav{top:126px;margin-top:0}}
+@media (max-width:620px){.site-header{height:126px}.nav-shell{padding-top:14px}.brand img{max-height:96px}.menu-toggle{margin-top:18px}.site-header nav{top:112px}}
