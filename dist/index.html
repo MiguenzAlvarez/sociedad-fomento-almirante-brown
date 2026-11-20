@@ -165,7 +165,8 @@
 
     <section class="community section shell">
       <div class="community-copy reveal"><p class="kicker blue">La comunidad en imágenes</p><h2>Momentos que cuentan quiénes somos.</h2><p>Encuentros, talleres y celebraciones que forman parte de la memoria del barrio.</p></div>
-      <div class="gallery-wall" aria-label="Galería de la comunidad">
+      <div class="gallery-carousel reveal" data-carousel aria-label="Galería de la comunidad">
+       <div class="gallery-wall" data-carousel-track tabindex="0">
         <img class="gallery-wide reveal" src="assets/galeria-1.jpg" alt="Actividad comunitaria en la Sociedad de Fomento" loading="lazy">
         <img class="gallery-tall reveal" src="assets/comunidad-02.jpg" alt="Encuentro compartido por vecinos" loading="lazy">
         <img class="reveal" src="assets/comunidad-05.jpg" alt="Actividad de la comunidad" loading="lazy">
@@ -178,6 +179,14 @@
         <img class="reveal" src="assets/comunidad-16.jpg" alt="Participación de la comunidad" loading="lazy">
         <img class="reveal" src="assets/comunidad-18.jpg" alt="Jornada comunitaria" loading="lazy">
         <img class="gallery-wide reveal" src="assets/comunidad-04.jpg" alt="Recuerdo de una actividad del barrio" loading="lazy">
+       </div>
+       <button class="carousel-button carousel-prev" type="button" data-carousel-prev aria-label="Fotografía anterior">
+         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5-7 7 7 7"/></svg>
+       </button>
+       <button class="carousel-button carousel-next" type="button" data-carousel-next aria-label="Fotografía siguiente">
+         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 5 7 7-7 7"/></svg>
+       </button>
+       <div class="carousel-status"><span data-carousel-count aria-live="polite">1 de 12</span><span>Deslizá para recorrer</span></div>
       </div>
       <aside class="facebook-preview reveal" id="novedades">
         <div class="facebook-intro"><div class="facebook-mark" aria-hidden="true">f</div><div><p class="kicker">Grupo oficial</p><h2>Lo último, en Facebook</h2><p>Publicaciones y avisos de la Sociedad de Fomento.</p></div></div>

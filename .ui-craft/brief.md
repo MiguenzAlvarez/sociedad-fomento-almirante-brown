@@ -15,4 +15,5 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - El logo debe conservar proporción, tener presencia suficiente y respetar el mismo margen lateral y superior de la grilla general.
 - Talleres y galería deben tener una separación visual inequívoca. Sus grillas tienen que cerrar filas completas sin celdas o espacios blancos residuales.
 - Las fotografías de la galería deben mostrarse completas; no recortarlas para forzar una proporción uniforme.
+- La galería se presenta como carrusel: una fotografía completa por vez, con controles visibles, gesto táctil, teclado y contador.
 - “Nosotros” e “Historia” deben leerse como un solo relato continuo, no como dos bloques visualmente independientes.
