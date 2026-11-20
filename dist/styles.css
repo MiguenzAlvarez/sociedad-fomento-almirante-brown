@@ -85,3 +85,11 @@ footer{background:#0b1832;color:white;padding:4.5rem 0 1.5rem}.footer-grid{displ
 
 @media (max-width:900px){.site-header{height:116px}.brand img{width:68px;height:98px}.site-header nav{top:108px}}
 @media (max-width:620px){.site-header{height:104px}.brand img{width:58px;height:86px}.hero-copy{padding-top:58px}.menu-toggle{margin-top:0}.site-header nav{top:98px}}
+
+/* Large standalone identity: the lettering is part of the artwork itself. */
+.site-header{height:164px}
+.brand img{width:104px;height:148px}
+.hero-copy{padding-top:150px}
+
+@media (max-width:900px){.site-header{height:150px}.brand img{width:92px;height:132px}.site-header nav{top:142px}}
+@media (max-width:620px){.site-header{height:132px}.brand img{width:78px;height:114px}.hero-copy{padding-top:92px}.site-header nav{top:126px}}
