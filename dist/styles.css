@@ -76,3 +76,12 @@ footer{background:#0b1832;color:white;padding:4.5rem 0 1.5rem}.footer-grid{displ
 .hero-copy{padding-top:90px}
 
 @media (max-width:620px){.site-header{height:88px}.brand img{width:44px;height:64px}.brand{gap:10px}.hero-copy{padding-top:36px}.site-header nav{top:82px}}
+
+/* The original artwork already contains the full name, so it stands alone at a readable size. */
+.site-header{height:122px}
+.brand{display:flex;align-items:center}
+.brand img{width:72px;height:104px}
+.hero-copy{padding-top:112px}
+
+@media (max-width:900px){.site-header{height:116px}.brand img{width:68px;height:98px}.site-header nav{top:108px}}
+@media (max-width:620px){.site-header{height:104px}.brand img{width:58px;height:86px}.hero-copy{padding-top:58px}.menu-toggle{margin-top:0}.site-header nav{top:98px}}
