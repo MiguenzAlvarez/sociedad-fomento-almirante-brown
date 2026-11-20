@@ -11,4 +11,5 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - Preservar y dar protagonismo al archivo fotográfico original. No reducir la comunidad a unas pocas imágenes.
 - Facebook debe integrarse con honestidad: no simular un feed en vivo si Meta no permite el acceso. Mostrar publicaciones reales mediante datos curados y enlazar siempre al original.
 - El logo institucional debe tener protagonismo visible y mostrarse solo, sin repetir el nombre a su derecha ni duplicarse dentro del hero.
+- Mostrar el archivo del logo tal como es; no agregarle otro fondo, marco, redondeado, sombra ni padding exterior.
 - “Nosotros” e “Historia” deben leerse como un solo relato continuo, no como dos bloques visualmente independientes.

@@ -31,3 +31,7 @@ footer{background:#0b1832;color:white;padding:4.5rem 0 1.5rem}.footer-grid{displ
 /* Standalone institutional mark */
 .site-header{height:104px}.brand{display:block}.brand img{width:78px;height:88px;object-fit:contain;border-radius:12px;padding:4px;background:rgba(255,255,255,.96);border:1px solid rgba(255,255,255,.9);box-shadow:0 10px 28px rgba(3,17,41,.28)}.hero-copy{padding-top:72px}
 @media (max-width:620px){.site-header{height:84px}.brand img{width:62px;height:70px}.hero-copy{padding-top:30px}}
+
+/* Render the original logo file without an added frame */
+.brand img{width:auto;height:auto;max-height:92px;object-fit:contain;border:0;border-radius:0;padding:0;background:transparent;box-shadow:none}
+@media (max-width:620px){.brand img{width:auto;height:auto;max-height:72px}}
