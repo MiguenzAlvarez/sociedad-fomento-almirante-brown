@@ -13,4 +13,5 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - El logo institucional debe tener protagonismo visible y mostrarse solo, sin repetir el nombre a su derecha ni duplicarse dentro del hero.
 - Mostrar el archivo del logo tal como es; no agregarle otro fondo, marco, redondeado, sombra ni padding exterior.
 - El logo debe conservar proporción, tener presencia suficiente y respetar el mismo margen lateral y superior de la grilla general.
+- Talleres y galería deben tener una separación visual inequívoca. Sus grillas tienen que cerrar filas completas sin celdas o espacios blancos residuales.
 - “Nosotros” e “Historia” deben leerse como un solo relato continuo, no como dos bloques visualmente independientes.
