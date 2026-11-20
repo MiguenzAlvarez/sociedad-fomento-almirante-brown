@@ -28,7 +28,7 @@ document.querySelectorAll('[data-carousel]').forEach(carousel=>{
   let current=0;
   const update=index=>{
     current=(index+slides.length)%slides.length;
-    track.scrollTo({left:current*track.clientWidth,behavior:reduced?'auto':'smooth'});
+    track.scrollTo({left:slides[current].offsetLeft-track.offsetLeft,behavior:reduced?'auto':'smooth'});
     count.textContent=`${current+1} de ${slides.length}`;
   };
   carousel.querySelector('[data-carousel-prev]').addEventListener('click',()=>update(current-1));
@@ -40,5 +40,5 @@ document.querySelectorAll('[data-carousel]').forEach(carousel=>{
     if(event.key==='End'){event.preventDefault();update(slides.length-1)}
   });
   let frame;
-  track.addEventListener('scroll',()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{current=Math.round(track.scrollLeft/track.clientWidth);count.textContent=`${current+1} de ${slides.length}`})},{passive:true});
+  track.addEventListener('scroll',()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>{current=slides.reduce((closest,slide,index)=>Math.abs((slide.offsetLeft-track.offsetLeft)-track.scrollLeft)<Math.abs((slides[closest].offsetLeft-track.offsetLeft)-track.scrollLeft)?index:closest,0);count.textContent=`${current+1} de ${slides.length}`})},{passive:true});
 });
