@@ -10,9 +10,7 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - Mantener la historia cerca del comienzo; es parte central de la identidad, no contenido secundario.
 - Preservar y dar protagonismo al archivo fotográfico original. No reducir la comunidad a unas pocas imágenes.
 - Facebook debe integrarse con honestidad: no simular un feed en vivo si Meta no permite el acceso. Mostrar publicaciones reales mediante datos curados y enlazar siempre al original.
-- El logo institucional debe tener protagonismo visible y mostrarse solo, sin repetir el nombre a su derecha ni duplicarse dentro del hero.
-- Mostrar el archivo del logo tal como es; no agregarle otro fondo, marco, redondeado, sombra ni padding exterior.
-- El logo debe conservar proporción, tener presencia suficiente y respetar el mismo margen lateral y superior de la grilla general.
+- El encabezado usa la identidad compacta original: logo circular pequeño, nombre “Almirante Brown” y descriptor “Sociedad de Fomento” a la derecha.
 - Talleres y galería deben tener una separación visual inequívoca. Sus grillas tienen que cerrar filas completas sin celdas o espacios blancos residuales.
 - Las fotografías de la galería deben mostrarse completas; no recortarlas para forzar una proporción uniforme.
 - El carrusel debe funcionar como una tira abierta: varias fotografías completas, con proporción natural, visibles una al lado de la otra y sin un gran recuadro contenedor.
