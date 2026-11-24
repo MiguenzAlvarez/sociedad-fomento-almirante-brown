@@ -125,3 +125,10 @@ html{scroll-padding-top:104px}
 @media (max-width:900px){.closing-inner{grid-template-columns:150px 1fr}.closing-logo img{width:144px}}
 @media (max-width:620px){.closing-inner{grid-template-columns:112px 1fr;gap:1.35rem}.closing-logo img{width:108px}}
 @media (max-width:390px){.closing-inner{grid-template-columns:98px 1fr;gap:1rem}.closing-logo img{width:94px}}
+
+/* Compact, centered utility footer below the fixed navigation. */
+footer{padding:2.75rem 0 1.25rem}
+.footer-grid{grid-template-columns:repeat(2,minmax(190px,1fr));max-width:720px;margin:0 auto;gap:clamp(4rem,10vw,8rem)}
+.footer-bottom{max-width:720px;margin:2rem auto 0;padding-top:1.1rem;justify-content:center;text-align:center}
+
+@media (max-width:620px){footer{padding:2.25rem 0 1.1rem}.footer-grid{grid-template-columns:1fr;gap:1.5rem;text-align:center}.footer-bottom{margin-top:1.75rem}.footer-grid h2{margin-bottom:.65rem}.footer-grid p{margin:.35rem 0}}
