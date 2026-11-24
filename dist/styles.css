@@ -118,3 +118,10 @@ html{scroll-padding-top:104px}
 
 @media (max-width:900px){.closing-inner{grid-template-columns:130px 1fr;gap:2rem 2.5rem}.closing-logo img{width:124px}.closing-inner>div:last-child{grid-column:2}.footer-grid{max-width:none}}
 @media (max-width:620px){.closing-inner{grid-template-columns:96px 1fr;gap:1.5rem}.closing-logo img{width:92px}.closing-inner>div:last-child{grid-column:1/-1}.closing h2{font-size:clamp(2rem,10vw,3rem)}.footer-grid{grid-template-columns:1fr}}
+
+/* Give the closing identity more visual weight where the layout has room. */
+.closing-inner{grid-template-columns:185px minmax(0,1.15fr) minmax(260px,.7fr)}
+.closing-logo img{width:176px}
+@media (max-width:900px){.closing-inner{grid-template-columns:150px 1fr}.closing-logo img{width:144px}}
+@media (max-width:620px){.closing-inner{grid-template-columns:112px 1fr;gap:1.35rem}.closing-logo img{width:108px}}
+@media (max-width:390px){.closing-inner{grid-template-columns:98px 1fr;gap:1rem}.closing-logo img{width:94px}}
