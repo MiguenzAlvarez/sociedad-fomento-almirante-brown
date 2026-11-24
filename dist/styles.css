@@ -93,3 +93,19 @@ footer{background:#0b1832;color:white;padding:4.5rem 0 1.5rem}.footer-grid{displ
 
 @media (max-width:900px){.site-header{height:150px}.brand img{width:92px;height:132px}.site-header nav{top:142px}}
 @media (max-width:620px){.site-header{height:132px}.brand img{width:78px;height:114px}.hero-copy{padding-top:92px}.site-header nav{top:126px}}
+
+/* Fixed institutional header with the compact horizontal mark. */
+html{scroll-padding-top:104px}
+.site-header{position:fixed;inset:0 0 auto;height:104px;background:rgba(8,37,79,.97);border-bottom:1px solid rgba(255,255,255,.18);box-shadow:0 8px 24px rgba(3,17,41,.18);backdrop-filter:blur(10px)}
+.nav-shell{align-items:center;padding-top:0}
+.brand{height:88px;overflow:hidden;border-radius:4px;background:#fff}
+.brand-mark{display:block;width:118px;height:88px;overflow:hidden}
+.brand-mark img{display:block;width:118px;height:118px;max-height:none;object-fit:cover;border:0;border-radius:0;background:#fff;box-shadow:none;transform:translateY(-15px)}
+.site-header nav{margin-top:0}
+.hero-copy{padding-top:132px}
+.footer-brand{align-items:center}
+.footer-brand img{width:112px;height:158px;object-fit:contain;border-radius:3px;background:#fff}
+.footer-brand p{margin:.25rem 0 0;font-size:1rem;color:rgba(255,255,255,.78)}
+
+@media (max-width:900px){html{scroll-padding-top:94px}.site-header{height:94px}.brand{height:78px}.brand-mark{width:104px;height:78px}.brand-mark img{width:104px;height:104px;transform:translateY(-13px)}.menu-toggle{margin-top:0}.site-header nav{top:86px}.hero-copy{padding-top:122px}}
+@media (max-width:620px){html{scroll-padding-top:82px}.site-header{height:82px}.brand{height:68px}.brand-mark{width:91px;height:68px}.brand-mark img{width:91px;height:91px;transform:translateY(-11px)}.hero-copy{padding-top:102px}.site-header nav{top:76px}.footer-brand img{width:92px;height:132px}}
