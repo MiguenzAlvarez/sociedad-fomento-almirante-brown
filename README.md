@@ -4,7 +4,7 @@ Sitio institucional de la Sociedad de Fomento Almirante Guillermo Brown, una org
 
 ## Sitio publicado
 
-[Visitar la página](https://sociedad-almirante-brown.agreeabletanager8.chatgpt.site/)
+[Visitar la página en Netlify](https://sociedad-fomento-almirante-brown.netlify.app/)
 
 ## Origen del proyecto
 
