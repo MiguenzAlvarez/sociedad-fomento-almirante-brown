@@ -16,3 +16,4 @@ Sitio institucional y comunitario para la Sociedad de Fomento Almirante Guillerm
 - El carrusel debe funcionar como una tira abierta: varias fotografías completas, con proporción natural, visibles una al lado de la otra y sin un gran recuadro contenedor.
 - “Nosotros” e “Historia” deben leerse como un solo relato continuo, no como dos bloques visualmente independientes.
 - El footer debe ser compacto y centrado. Con el encabezado fijo no necesita un enlace redundante de “Volver arriba”.
+- Los enlaces del menú deben respetar el orden vertical real de las secciones para que el recorrido sea predecible.
